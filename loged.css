@@ -1,0 +1,140 @@
+body {
+  background-image: url(img/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+header {
+  position: relative;
+  left: 430px;
+}
+
+ .content {
+  border-style: groove;
+  background-color: #DF7401;
+  background: linear-gradient(#A5DF00,#DF7401);
+  border-radius: 30px;
+  padding: 5px;
+  width: 200px;
+  height: 500px;
+  margin-top: 40px;
+}
+
+nav > ul > li {
+  list-style-type: none;
+  padding-top: 20px;
+  color: #fff;
+  font: 18px verdana;
+  font-weight: bold;
+}
+
+a {
+  color: #3B0B0B;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+form {
+  border: 2px solid #fff;
+  border-radius: 40px;
+  height: 450px;
+  width: 700px;
+  padding-top: 30px;
+  padding-left: 20px;
+  position: relative;
+  bottom: 450px;
+  left: 290px;
+}
+
+.label1 {
+  font: 20px arial;
+  font-weight: bold;
+  color: #000;
+}
+
+  .fileButton {
+    font:18px arial;
+    color: #f2f2f2;
+  }
+
+  .uploadFile {
+  background-color: #DF7401;
+  background: linear-gradient(#A5DF00,#DF7401);
+  font:18px arial;
+  border-radius: 30px;
+  color: #000;
+  padding: 0px 10px;
+}
+
+
+footer {
+  float: right;
+
+}
+
+.cloud1 {
+  position: relative;
+  left: 200px;
+  bottom: 800px;
+  animation-name: cloudTwo;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+}
+
+.cloud3 {
+  position: relative;
+  left: 1000px;
+  bottom: 530px;
+  animation-name:cloudOne;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes cloudTwo {
+
+  0% {
+    position: relative;
+    left: 200px;
+    bottom: 800px;
+  }
+  50% {
+    position: relative;
+    left: 80px;
+    bottom: 800px;
+  }
+  100% {
+    position: relative;
+    left: 200px;
+    bottom: 800px;
+  }
+
+}
+
+@keyframes cloudOne {
+
+  0%{
+    position: relative;
+    left: 1000px;
+    bottom: 530px;
+  }
+
+  50% {
+    position: relative;
+    left: 850px;
+    bottom: 530px;
+  }
+
+  100%{
+    position: relative;
+    left: 1000px;
+    bottom: 530px;
+}
+
+}

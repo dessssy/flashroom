@@ -1,0 +1,146 @@
+body {
+  background-image: url(img/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  font: 12px verdana;
+  font-weight: bold;
+  float:right;
+}
+
+span {
+  color: #fff;
+  font: 15px verdana;
+  font-weight: bold;
+}
+
+.bgFlag {
+  border: 1px solid grey;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #ccccb3;
+}
+
+.info:hover {
+  color: #ccccb3;
+}
+
+
+.touch {
+  position: relative;
+  left: 450px;
+  top: 120px;
+}
+
+form {
+  position: relative;
+  left: 560px;
+  top: 130px;
+}
+
+.user {
+  margin-bottom: 10px;
+}
+
+.backButton {
+  position: fixed;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  background-color: #fff;
+  padding: 10px;
+  font: 15px verdana;
+  font-weight: bold;
+  color: #000;
+}
+
+.button {
+  text-decoration: none;
+  position: relative;
+  left: 50px;
+  top: 10px;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 10px;
+  background-color: #FE9A2E;
+  font: 15px arial;
+  font-weight: bold;
+}
+
+.button:hover {
+  color: #F5DA81;
+}
+
+.cloud1 {
+  position: relative;
+  left: 200px;
+  bottom: 300px;
+  animation-name: cloudTwo;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+}
+
+.cloud3 {
+  position: relative;
+  left: 1000px;
+  bottom: 230px;
+  animation-name:cloudOne;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+}
+
+
+footer {
+  float: right;
+  margin-top: 100px;
+}
+
+@keyframes cloudTwo {
+
+  0% {
+    position: relative;
+    left: 200px;
+    bottom: 300px;
+  }
+  50% {
+    position: relative;
+    left: 80px;
+    bottom: 300px;
+  }
+  100% {
+    position: relative;
+    left: 200px;
+    bottom: 300px;
+  }
+
+}
+
+@keyframes cloudOne {
+
+  0%{
+    position: relative;
+    left: 1000px;
+    bottom: 230px;
+  }
+
+  50% {
+    position: relative;
+    left: 850px;
+    bottom: 230px;
+  }
+
+  100%{
+    position: relative;
+    left: 1000px;
+    bottom: 230px;
+}
+
+}

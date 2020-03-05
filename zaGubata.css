@@ -1,0 +1,91 @@
+body {
+  background-image: url(img/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  font: 12px verdana;
+  font-weight: bold;
+  float:right;
+}
+
+span {
+  color: #fff;
+  font: 15px verdana;
+  font-weight: bold;
+}
+
+.bgFlag {
+  border: 1px solid grey;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #ccccb3;
+}
+
+.logos{
+  margin-left: 200px;
+}
+
+h1 {
+  font: 50px cooper black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.content {
+  background-color: rgba(209, 224, 224,.5);
+  margin-top: 30px;
+  position: relative;
+  padding: 10px;
+  left: 230px;
+  border: 2px solid #fff;
+  border-radius: 40px;
+  font: 17px verdana;
+  height: 700px;
+  width: 850px;
+}
+
+.content > p {
+  padding: 20px 40px;
+  text-align: justify;
+}
+
+.backButton {
+  position: fixed;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  background-color: #fff;
+  padding: 10px;
+  font: 15px verdana;
+  font-weight: bold;
+  color: #000;
+
+}
+
+.flash {
+  float: left;
+}
+
+.pEnd {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.teamGreeting {
+  float: right;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+footer {
+  float: right;
+  margin-top: 100px;
+}

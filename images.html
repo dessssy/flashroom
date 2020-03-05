@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flashguba - upload images</title>
+        <link rel='icon' type='image/jpg' href='img/icon.png'/>
+        <meta charset='utf-8'/>
+        <link rel='stylesheet' href='images.css' type='text/css'>
+    </head>
+    <body>
+        <header>
+            <img src='img/3.jpg'/>
+        </header>
+        <nav class="content">
+            <ul>
+                <li><a class='images' href='#'>изображения</a></li>
+                <li><a class='docs' href='#'>документи</a></li>
+                <li><a class='presentations' href='#'>презентации</a></li>
+                <li><a class='audio' href='#'>аудио</a></li>
+                <li><a class='video' href='#'>видео</a></li>
+                <li class='back'><a class='video' href='loged.html'>назад</a></li>
+            </ul>
+        </nav>
+        <main>
+            <form action='loged.html' method='post' enctype='multipart/form-data'>
+                 <label for='file' class='label1'>избери файл:</label>
+                 <input type='file' name='file1' class='fileButton'/>
+                 <input type='submit' value='качи' class='uploadFile'/>
+            </form>
+            <div class='cloud1'><img src='img/cloud1.png'/></div>
+            <div class='cloud3'><img src='img/cloud3.png'/></div>
+        </main>
+        <footer>
+            <img src='img/icon.png'/>
+            <img src='img/facebook.png' class='facebook'/>
+            <img src='img/tweeter.png' class='tweeter'/>
+        </footer>
+    </body>
+</html>
